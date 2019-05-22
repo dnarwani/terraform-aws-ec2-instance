@@ -32,7 +32,7 @@ variable "disable_api_termination" {
 }
 
 variable "instance_initiated_shutdown_behavior" {
-  description = "Shutdown behavior for the instance" # https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/terminating-instances.html#Using_ChangingInstanceInitiatedShutdownBehavior
+  description = "Shutdown behavior for the instance"
   default     = ""
 }
 
